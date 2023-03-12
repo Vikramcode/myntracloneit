@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-banner-container {
+  width: 100%;
+  text-align: center;
+}
+
+.womenbox {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.womenimage {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.womenimage img {
+  width: 300px;
+  margin: 10px 15px;
+}
+
+.womenimage1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.womenimage1 img {
+  width: 220px;
+}
+.womenimage2 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.womenimage2 img {
+  width: 223px;
+  margin: 0px 23px;
+}
+
+.womenimage3 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-x: hidden;
+}
+.womenimage3::-webkit-scrollbar{
+  display: none;
+}
+.womenimage3 img {
+  width: 225px;
+  margin: 0px 21px;
+}
+.womenimage4 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-x: hidden;
+}
+.womenimage4::-webkit-scrollbar{
+  display: none;
+}
+.womenimage4 img {
+  width: 240px;
+  margin: 0px 18px;
+}
+
+h4 {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 2em;
+  margin: 5px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 500;
+  padding: 4%;
+  text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 1281px) {
+  .womenimage img{
+    width: 290px;
+    margin: 5px 13px;
+  }
+  .womenimage1 img{
+    width: 210px;
+  }
+  .womenimage2 img{
+    width: 250px;
+    margin: 0px 0px;
+  }
+  .womenimage3 img{
+    width: 250px;
+    margin: 0px 0px;
+  }
+  .womenimage4 img{
+    width: 220px;
+  }
+.text-banner-container  h4{
+    font-size: 1.8em;
+    margin: 15px 0px;
+  }
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .womenimage img{
+    width: 230px;
+    margin: 5px 13px;
+  }
+  .womenimage1 img{
+    width: 165px;
+  }
+  .womenimage2 img{
+    width: 200px;
+    margin: 0px 0px;
+  }
+.text-banner-container  h4{
+    font-size: 1.7em;
+    margin: 15px 0px;
+  }
+}
+
+
+@media only screen and (max-width: 913px) {
+  .womenimage img{
+    width: 200px;
+    margin: 5px 13px;
+  }
+  .womenimage1 img{
+    width: 150px;
+  }
+  .womenimage2 img{
+    width: 180px;
+    margin: 0px 0px;
+  }
+.text-banner-container  h4{
+    font-size: 1.7em;
+    margin: 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 821px) {
+  .womenimage img{
+    width: 179px;
+    margin: 5px 13px;
+  }
+  .womenimage1 img{
+    width: 133px;
+  }
+  .womenimage2 img{
+    width: 160px;
+    margin: 0px 0px;
+  }
+.text-banner-container  h4{
+    font-size: 1.7em;
+    margin: 15px 0px;
+  }
+}
+
+
+@media only screen and (max-width: 769px) {
+  .womenimage img{
+    width: 177px;
+    margin: 5px 5px;
+  }
+.womenimage1 img{
+    width: 123px;
+  }
+  .womenimage2 img{
+    width: 150px;
+    margin: 0px 0px;
+  }
+.text-banner-container  h4{
+    font-size: 1.7em;
+    margin: 15px 0px;
+  }
+}
+
+
+@media only screen and (max-width: 541px) {
+  .womenimage img{
+    width: 109px;
+    margin: 5px 13px;
+  }
+  .womenimage1 img{
+    width: 86px;
+  }
+  .womenimage2 img{
+    width: 104px;
+    margin: 0px 0px;
+  }
+  .womenimage3 img{
+    width: 150px;
+    margin: 0px 5px;
+  }
+  .womenimage4 img{
+    width: 150px;
+    margin: 0px 5px;
+  }
+.text-banner-container  h4{
+    font-size: 1.5em;
+    margin: 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .womenimage img{
+    width: 100px;
+    margin: 0px 0px;
+  }
+  .womenimage1 img{
+    width: 130px;
+  }
+  .womenimage2 img{
+    width: 80px;
+    margin: 0px 0px;
+  }
+.text-banner-container  h4{
+    font-size: 1.1em;
+    margin: 15px 0px;
+  }
+}
+
+
+@media only screen and (max-width: 394px) {
+  .womenimage img{
+    width: 95px;
+    margin: 0px 0px;
+  }
+  .womenimage1 img{
+    width: 130px;
+  }
+  .womenimage2 img{
+    width: 75px;
+    margin: 0px 0px;
+  }
+.text-banner-container  h4{
+    font-size: 1.1em;
+    margin: 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .womenbox img{
+    width: 90px;
+    margin: 0px 0px;
+  }
+  .womenimage1 img{
+    width: 120px;
+  }
+  .womenimage2 img{
+    width: 70px;
+    margin: 0px 0px;
+  }
+.text-banner-container  h4{
+    font-size: 1.1em;
+    margin: 15px 0px;
+  }
+}
+
+
